@@ -6,7 +6,7 @@ const amount = document.querySelector("#amount");
 
 form.addEventListener('submit', e => {
     e.preventDefault();
-    console.log(coin.children);
+    const coinSelected = [...coin.children].find(Option => Option.selected);
     
 })
 
