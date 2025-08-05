@@ -16,6 +16,10 @@ p {
   color: white;
 }
 
+a {
+  color: white;
+}
+
 body {
   margin: 0;
   background-color: oklch(0.372 0.044 257.287);
